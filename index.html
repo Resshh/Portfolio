@@ -2,243 +2,460 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <style>
-        body{
-            background-image: url(./assest/background\ .png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
+
+    <title>Reshma | Portfolio</title>
+
+    <!-- Bootstrap -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="./style.css">
+    <!-- Font Awesome -->
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content"
-                aria-controls="navbar-content" aria-expanded="false" aria-label="toggle-navigation">
+    <!--================ NAVBAR ================-->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+
+                <span class="logo-circle">R</span>
+
+                <span class="logo-name">
+
+                    Reshma
+
+                </span>
+
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+
                 <span class="navbar-toggler-icon"></span>
+
             </button>
-            <div class="collapse navbar-collapse" id="navbar-content">
-                <ul class="navbar-nav">
+
+            <div class="collapse navbar-collapse" id="menu">
+
+                <ul class="navbar-nav mx-auto">
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+
+                        <a class="nav-link active" href="">
+
+                            Home
+
+                        </a>
+
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+
+                        <a class="nav-link" href="#about">
+
+                            About
+
+                        </a>
+
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+
+                        <a class="nav-link" href="#projects">
+
+                            Projects
+
+                        </a>
+
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Interests</a>
+
+                        <a class="nav-link" href="#skills">
+
+                            Skills
+
+                        </a>
+
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+
+                        <a class="nav-link" href="#contact">
+
+                            Contact
+
+                        </a>
+
                     </li>
+
                 </ul>
+
+                <div class="social">
+
+                    <a href="https://github.com/Resshh" target="_blank">
+
+                        <i class="fab fa-github"></i>
+
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/reshmathomas2312/" target="_blank">
+
+                        <i class="fab fa-linkedin"></i>
+
+                    </a>
+
+
+                </div>
+
             </div>
-        </nav>
-        <div class="box">
-            <div class="box-1"></div>
-            <div class="box-2"></div>
+
         </div>
-    </header>
-    <section>
-        <h1 class="text-center"></h1>
+
+    </nav>
+    <!--================ HERO ================-->
+
+    <section class="hero" id="home">
+
+        <div id="heroCarousel" class="carousel slide">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                    <img src="./assest/intro.png" class="hero-img" alt="Banner">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ ABOUT SECTION ================-->
+
+    <section id="about" class="about section-padding">
+
+        <div class="container">
+
+            <div class="section-heading text-center">
+
+                <h5>ABOUT ME</h5>
+
+            
+
+                <p>
+                    A passionate Computer Science graduate focused on creating
+                    modern websites and web applications.
+                </p>
+
+            </div>
+
+            <div class="row align-items-center mt-5">
+
+
+                <div class="col-lg-7">
+
+                    <h3>
+
+                        Full Stack Developer
+                        <span class="text-info">(MERN)</span>
+
+                    </h3>
+
+                    <p class="about-text">
+
+                        I recently completed my Bachelor of Technology in
+                        Computer Science and Engineering.
+                        My primary interest lies in Full Stack Web Development
+                        using the MERN Stack.
+
+                    </p>
+
+                    <p class="about-text">
+
+                        I enjoy creating responsive websites,
+                        improving UI/UX,
+                        solving programming problems,
+                        and learning modern web technologies.
+
+                    </p>
+
+                    <div class="row mt-4">
+
+                        <div class="col-md-6">
+
+                            <ul class="about-list">
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    HTML5
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    CSS3
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    Bootstrap
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    JavaScript
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <ul class="about-list">
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    React
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    Node.js
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    MongoDB
+
+                                </li>
+
+                                <li>
+
+                                    <i class="fa-solid fa-circle-check"></i>
+
+                                    Git & GitHub
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
 
-    <div class="container mt-4">
 
-        <div id="carouselExample" class="carousel slide">
+    <!--================ PROJECT SECTION STARTS HERE ================-->
 
-            <div class="carousel-inner rounded shadow">
+    <section id="projects" class="section-padding">
 
-                <div class="carousel-item active">
-                    <img src="./assest/intro.png" class="d-block w-100" style="height: 700px; object-fit:cover;" alt="">
-                </div>
+        <div class="container">
 
-                <div class="carousel-item">
-                    <img src="" class="d-block w-100" style="height:500px; object-fit:cover;" alt="">
-                </div>
+            <div class="section-heading text-center">
 
-                <div class="carousel-item">
-                    <img src="" class="d-block w-100" style="height:500px; object-fit:cover;" alt="">
-                </div>
+
+
 
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <div class="row g-4">
+                <!--================ PROJECT 1 ================-->
 
-                <span class="carousel-control-prev-icon"></span>
+                <div class="col-lg-4 col-md-6">
 
-            </button>
+                    <div class="project-card">
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <div class="project-image">
 
-                <span class="carousel-control-next-icon"></span>
+                            <img src="./assest/gesture.png" class="img-fluid" alt="Gesture Controlled Virtual Mouse">
 
-            </button>
+                        </div>
+
+                        <div class="project-content">
+
+
+                            <h3>
+
+                                Gesture Controlled
+                                Virtual Mouse
+
+                            </h3>
+
+                            <p>
+
+                                A Computer Vision project that allows users to control
+                                the mouse cursor using hand gestures instead of a physical
+                                mouse. Built with real-time hand tracking.
+
+                            </p>
+
+                            <div class="technology">
+
+                                <span>Python</span>
+
+                                <span>OpenCV</span>
+
+                                <span>MediaPipe</span>
+
+                                <span>PyAutoGUI</span>
+
+                            </div>
+                               <div class="project-buttons">
+
+
+            </div>
+
+                            <div class="project-buttons">
+
+
+
+                                <a href="https://github.com/Resshh/Gesture-Controlled-Virtual-Mouse-Using-Deep-Learning.git"
+                                    target="_blank" class="btn btn-main">
+
+                                    GitHub
+
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--================ PROJECT 2 ================-->
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="project-card">
+
+                        <div class="project-image">
+
+                            <img src="./assest/skill.png" class="img-fluid" alt="Skills">
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Technical Skills
+                            </h3>
+
+                            <p>
+                                Skilled in front-end and back-end web development using modern technologies.
+                                Continuously learning and improving through practical projects and problem-solving.
+                            </p>
+
+                            <div class="technology">
+
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Bootstrap</span>
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Git</span>
+
+                            </div>
+
+                            <div class="project-buttons">
+
+                                <a href="#skills" class="btn btn-main">
+                                    View Skills
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--================ PROJECT 3 ================-->
+
+    <div class="col-lg-4 col-md-6">
+
+    <div class="project-card">
+
+        <div class="project-image">
+
+            <img src="./assest/qualification.png" class="img-fluid" alt="Education">
 
         </div>
 
-    </div>
+        <div class="project-content">
 
+            <h3>
+                Educational Background
+            </h3>
 
-    <div class="container mt-5">
+            <p>
+                Completed my Bachelor of Technology in Computer Science and Engineering at Providence College of Engineering (2022–2026). Built a strong foundation in programming, web development, databases, and software engineering.
+            </p>
 
-        <div class="row g-4">
+            <div class="technology">
 
-            <!-- Project Card -->
-            <div class="col-md-4">
-
-                <div class="card h-100 shadow">
-
-                    <img src="./assest/gesture.png" class="card-img-top" alt="Gesture Controlled Virtual Mouse">
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">Gesture Controlled Virtual Mouse</h5>
-
-                        <p class="card-text">
-                            A computer vision project that allows users to control the mouse
-                            cursor using hand gestures instead of a physical mouse. The
-                            system detects hand movements through a webcam and performs
-                            cursor movement, left click, right click, scrolling, and drag
-                            using real-time hand tracking.
-                        </p>
-
-                        <p>
-                            <strong>Technologies:</strong><br>
-                            Python, OpenCV, MediaPipe, PyAutoGUI
-                        </p>
-
-                    </div>
-
-                    <div class="card-footer d-flex justify-content-between">
-
-                        <a href="#" class="btn btn-warning">
-                            View Project
-                        </a>
-
-                        <a href="https://github.com/Resshh/Gesture-Controlled-Virtual-Mouse-Using-Deep-Learning.git"
-                            target="_blank" class="btn btn-dark">
-                            GitHub
-                        </a>
-
-                    </div>
-
-                </div>
+                <span>B.Tech</span>
+                <span>CSE</span>
+                <span>2022–2026</span>
+                <span>CGPA</span>
 
             </div>
 
-            <!-- Skills Card -->
-            <div class="col-md-4">
+            <div class="project-buttons">
 
-                <div class="card h-100 shadow">
+                <a href="#about" class="btn btn-main">
+                    About Me
+                </a>
 
-                    <img src="./assest/skill.png" class="card-img-top" alt="My Skills">
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">My Skills</h5>
-
-                        <p class="card-text">
-                            Passionate about building responsive and modern web applications
-                            using the MERN stack. I enjoy creating clean user interfaces,
-                            solving problems, and continuously learning new technologies.
-                        </p>
-
-                        <p>
-                            <strong>Frontend:</strong><br>
-                            HTML, CSS, Bootstrap, JavaScript, React
-                        </p>
-
-                        <p>
-                            <strong>Backend:</strong><br>
-                            Node
-                        </p>
-
-                        <p>
-                            <strong>Database:</strong><br>
-                            MongoDB
-                        </p>
-
-                    </div>
-
-                    <div class="card-footer d-flex justify-content-between">
-
-                        <button class="btn btn-warning">
-                            View Skills
-                        </button>
-
-                        <a href="resume.pdf" class="btn btn-dark">
-                            Resume
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Education Card -->
-            <div class="col-md-4">
-
-                <div class="card h-100 shadow">
-
-                    <img src="./assest/qualification.png" class="card-img-top" alt="Educational Background">
-
-                    <div class="card-body">
-
-                        <h5 class="card-title">
-                            Educational Background
-                        </h5>
-
-                        <p>
-                            <strong>Bachelor of Technology (B.Tech)</strong><br>
-                            Computer Science and Engineering
-                        </p>
-
-                        <p>
-                            B.Tech graduate with a strong
-                            interest in Full Stack Web Development, UI/UX Design and
-                            Software Development. I enjoy building practical projects
-                            and continuously improving my technical skills.
-                        </p>
-
-                        <p>
-                            <strong>Institution:</strong> Providence College Of Engineering
-                        </p>
-
-                        <p>
-                            <strong>Year:</strong> 2022 – 2026
-                        </p>
-
-                    </div>
-
-                    <div class="card-footer d-flex justify-content-between">
-
-                        <a href="resume.pdf" class="btn btn-warning">
-                            Resume
-                        </a>
-
-                        <button class="btn btn-dark">
-                            Certificates
-                        </button>
-
-                    </div>
-
-                </div>
 
             </div>
 
@@ -246,10 +463,51 @@
 
     </div>
 
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+    <!--================ FOOTER =================-->
+
+    <footer>
+
+        <div class="container">
+
+            <h2>
+
+                Reshma Ann Thomas
+
+            </h2>
+
+            <p>
+
+                Full Stack Developer | MERN Stack
+
+            </p>
+
+            <div class="footer-social">
+
+                <a href="https://github.com/Resshh" target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://www.linkedin.com/in/reshmathomas2312/" target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+            </div>
+
+            <hr>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
